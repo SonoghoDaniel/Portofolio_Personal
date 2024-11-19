@@ -1,0 +1,119 @@
+/* Reset default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background: rgba(37, 40, 41, 0.986);
+    background-size: cover;
+    color: rgb(226, 217, 217);
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.5rem;
+  }
+  
+  .section {
+    padding: 50px 0;
+  }
+  
+  .profile {
+    float: left;
+    margin-right: 30px;
+  }
+  
+  .profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .bio {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgb(11, 58, 58);
+    gap: 30px;
+    cursor: pointer;
+    box-shadow: 0 6px 10px rgba(174, 179, 179, 0.986);
+    transition: transform 0.3s ease-in-out;
+    max-width: 600px;
+    font-size: 3.6rem;
+    display: none;
+    color: var(--main-color);
+
+  }
+  .bio bio:hover {
+    box-shadow: 0 50px var(--main-color),
+                0 100px var(--main-color);
+  }
+  
+  .bio h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 30px 0;
+    background-color: rgb(11, 58, 58);
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  
+    .profile {
+      float: none;
+      text-align: center;
+      margin: 0;
+    }
+  
+    .bio {
+      text-align: center;
+    }
+   }
+  
