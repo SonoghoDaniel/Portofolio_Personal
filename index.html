@@ -1,131 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daniel Sonogho - Portfolio</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #e9ecef; /* Couleur de fond agréable */
-    }
-    #header {
-      background-color: #343a40;
-      color: white;
-      padding: 20px 0;
-      text-align: center;
-    }
-    .section {
-      padding: 60px 0;
-    }
-    .profile img {
-      border-radius: 50%;
-      width: 150px;
-      height: 150px;
-    }
-    .bio .p {
-      display: flex;
-      
-    }
-
-    .progress-bar {
-      background-color: #007bff;
-    }
-    footer {
-      background-color: #343a40;
-      color: white;
-      padding: 20px 0;
-      text-align: center;
-    }
-    footer a {
-      color: #007bff;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Accueil.css">
 </head>
 <body>
-
-  <!-- Header Section -->
-  <header id="header">
-    <div class="container">
-      <h1>Daniel Sonogho</h1>
-      <p>Student</p>
-    </div>
-  </header>
-
-  <!-- About Me Section -->
-  <section id="about" class="section">
-    <div class="container text-center">
-      <div class="profile">
-        <img src="Assets/img/dan.jpg" alt="My Photo">
-      </div>
-      <div class="bio">
-        <h2>About Me</h2>
-        <p>
-          Hello! I'm Kakule Sonogho Daniel, a passionate developer with a love for coding and creating beautiful, user-friendly websites. 
-          I have experience with HTML, CSS, JavaScript, and Bootstrap.
-        </p>
-        <p>
-          I am always looking for new challenges and opportunities to learn and grow in the tech industry.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Skills and Experience Section -->
-  <section id="skills" class="section bg-light">
-    <div class="container">
-      <h2 class="text-center">Skills and Experience</h2>
-      <div class="row">
-        <div class="col-md-6">
-          <h3>Skills</h3>
-          <ul class="list-unstyled">
-            <li>HTML5</li>per
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped bg-succes" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
-            </div>
-            <li>CSS3</li>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
-            </div>
-            <li>JavaScript</li>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">45%</div>
-            </div>
-            <li>Design</li>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">35%</div>
-            </div>
-            <li>Git & GitHub</li>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-            </div>
-            <li>Web Design</li>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15%</div>
-            </div>
-          </ul>
+    <header class="hero">
+        <div class="overlay">
+            <h1>Croire en ses rêves, bâtir l'avenir</h1>
+            <p>L'histoire de DanielSon, un passionné de Génie Informatique.</p>
+            <a href="#histoire" class="btn">Découvrir son histoire</a>
         </div>
-        <div class="col-md-6"> <br>
-          <h3>Experience</h3>
-          <p>
-            Over the past few years, I’ve worked on numerous web development projects, building modern websites and web applications.
-            I'm experienced in front-end and back-end development, and I enjoy working with both technologies to deliver high-quality solutions.
-          </p>
+    </header>
+
+    <main>
+        <div class="icon-bar">
+            <a class="active" href="index.html"><i class="fa fa-home"></i></a>
+            <a href="search.html"><i class="fa fa-search"></i></a>
+            <a href="message.html"><i class="fa fa-envelope"></i></a>
+            <a href="https://www.lachainemeteo.com/meteo-monde/previsions-meteo-monde"><i class="fa fa-globe"></i></a>
+            <a href="#"><i class="fa fa-trash"></i></a>
         </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- Footer Section -->
-  <footer id="footer">
-    <div class="container">
-      <p>Contact: <a href="mailto:kakulesonoghodaniel@gmail.com"> kakulesonoghodaniel@gmail.com</a></p>
-      <p><a href="#">LinkedIn</a> | <a href="https://github.com/SonoghoDaniel">GitHub</a> | <a href="#">Portfolio</a></p>
-    </div>
-  </footer>
+        <section id="histoire" class="content-section">
+            <h2>Son Histoire</h2>
+            <p>
+                Je m'appelle DanielSon, et depuis aussi loin que je me souvienne, la technologie a toujours été ma passion.
+            </p>
+        </section>
+    </main>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <footer class="footer">
+        <p>© 2024 Les Rêves de DanielSon | Réalisé avec passion.</p>
+    </footer>
 </body>
 </html>
