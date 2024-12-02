@@ -2,91 +2,52 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  font-family: "Lato", sans-serif;
-}
-
-.sidenav {
-  height: 100%;
-  width: 160px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-.main {
-  margin-left: 160px; /* Same as the width of the sidenav */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
-}
-.navbar {
-  width: 100%;
-  background-color: #555;
-  overflow: auto;
-}
-
-.navbar a {
-  float: left;
-  padding: 12px;
-  color: white;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbar a:hover {
-  background-color: #000;
-}
-
-.active {
-  background-color: #04AA6D;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-  .navbar a {
-    float: none;
-    display: block;
-  }
-}
-</style>
+<link rel="stylesheet" href="Accueil.css">
 </head>
-<body>
+    <header class="hero">
+        <div class="overlay">
+            <h1>Croire en ses rêves, bâtir l'avenir</h1>
+            <p>L'histoire de DanielSon, un passionné de Génie Informatique.</p>
+            <a href="#histoire" class="btn">Découvrir son histoire</a>
+                      </div>
+    </header>
 
-<div class="sidenav">
-  <a href="#about">About</a>
-  <a href="#services">Services</a>
-  <a href="#clients">Clients</a>
-  <a href="#contact">Contact</a>
-</div>
-<div class="navbar">
-  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
-  <a href="#"><i class="fa fa-fw fa-search"></i> Search</a> 
-  <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
-  <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
-</div>
+    <main>
+        <!-- Section: Son histoire -->
+        <section id="histoire" class="content-section">
+            <h2>Son Histoire</h2>
+            <p>
+                Je m'appelle DanielSon, et depuis aussi loin que je me souvienne, la technologie a toujours été ma passion. Mais pour moi, l'informatique n'est pas qu'une suite de codes et de machines ; c'est un outil pour changer le monde.
+            </p>
+            <p>
+                Quand j’étais enfant, je passais des heures à démonter de vieux appareils pour comprendre comment ils fonctionnaient. Aujourd’hui, je rêve de créer des systèmes qui aident les gens à réaliser leur potentiel et à se connecter au-delà des frontières.
+            </p>
+        </section>
 
+        <!-- Section: Ses ambitions -->
+        <section class="content-section">
+            <h2>Ses Ambitions</h2>
+            <p>
+                Mon plus grand rêve est de concevoir des solutions technologiques innovantes qui impactent positivement notre quotidien. Qu’il s’agisse de développer des applications pour l’éducation, d’automatiser des processus complexes ou de trouver des moyens de connecter les communautés éloignées, je veux mettre mon savoir-faire au service du bien commun.
+            </p>
+        </section>
 
-   
+        <!-- Section: Projets en cours -->
+        <section class="content-section">
+            <h2>Projets en cours</h2>
+            <ul>
+                <li>Une plateforme éducative pour les enfants défavorisés.</li>
+                <li>Un système d’intelligence artificielle pour optimiser les réseaux d’énergie.</li>
+                <li>Une application pour aider les jeunes à s’orienter dans leurs études et carrières.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2024 Les Rêves de DanielSon | Réalisé avec passion.</p>
+    </footer>
+
+<script src="script.js"></script>
+     
 </body>
-</html> 
-<!DOCTYPE html>
-<html>
-<head>
+</html>
